@@ -28,11 +28,14 @@
 		C4B2FFE514B22CF000768A9A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B2FFE414B22CF000768A9A /* icon.png */; };
 		C4B2FFE714B22CF000768A9A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B2FFE614B22CF000768A9A /* icon@2x.png */; };
 		C4B2FFE914B22CF000768A9A /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B2FFE814B22CF000768A9A /* icon-72.png */; };
-		C4B2FFEC14B22CF000768A9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B2FFEB14B22CF000768A9A /* Default.png */; };
-		C4B2FFEE14B22CF000768A9A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4B2FFED14B22CF000768A9A /* Default@2x.png */; };
 		C4B2FFF014B22CF200768A9A /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C4B2FFEF14B22CF200768A9A /* Capture.bundle */; };
 		C4B2FFF214B22CF200768A9A /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4B2FFF114B22CF200768A9A /* PhoneGap.plist */; };
 		C4B2FFF614B22CF200768A9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B2FFF514B22CF200768A9A /* AppDelegate.m */; };
+		C4B2FFFF14B22D6300768A9A /* www in Resources */ = {isa = PBXBuildFile; fileRef = C4B2FFFE14B22D6300768A9A /* www */; };
+		C4E5B33314B264FA00AA72ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4E5B33214B264FA00AA72ED /* Default.png */; };
+		C4E5B33614B2651200AA72ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4E5B33514B2651200AA72ED /* Default@2x.png */; };
+		C4E5B33A14B2740200AA72ED /* wall.png in Resources */ = {isa = PBXBuildFile; fileRef = C4E5B33914B2740200AA72ED /* wall.png */; };
+		C4E5B33C14B274AD00AA72ED /* wall2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4E5B33B14B274AD00AA72ED /* wall2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,10 +53,10 @@
 		C4B2FFC914B22CF000768A9A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C4B2FFCB14B22CF000768A9A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		C4B2FFCD14B22CF000768A9A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		C4B2FFD114B22CF000768A9A /* The Wall-Info.plist */ = {isa = PBXFileReference; path = "The Wall-Info.plist"; sourceTree = "<group>"; };
+		C4B2FFD114B22CF000768A9A /* The Wall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Wall-Info.plist"; sourceTree = "<group>"; };
 		C4B2FFD314B22CF000768A9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4B2FFD514B22CF000768A9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C4B2FFD714B22CF000768A9A /* The Wall-Prefix.pch */ = {isa = PBXFileReference; path = "The Wall-Prefix.pch"; sourceTree = "<group>"; };
+		C4B2FFD714B22CF000768A9A /* The Wall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The Wall-Prefix.pch"; sourceTree = "<group>"; };
 		C4B2FFD814B22CF000768A9A /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		C4B2FFDD14B22CF000768A9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C4B2FFE114B22CF000768A9A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -64,9 +67,14 @@
 		C4B2FFED14B22CF000768A9A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		C4B2FFEF14B22CF200768A9A /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		C4B2FFF114B22CF200768A9A /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
-		C4B2FFF414B22CF200768A9A /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		C4B2FFF414B22CF200768A9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		C4B2FFF514B22CF200768A9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		C4B2FFF814B22CF200768A9A /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		C4B2FFF814B22CF200768A9A /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		C4B2FFFE14B22D6300768A9A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		C4E5B33214B264FA00AA72ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C4E5B33514B2651200AA72ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C4E5B33914B2740200AA72ED /* wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall.png; sourceTree = "<group>"; };
+		C4E5B33B14B274AD00AA72ED /* wall2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,11 @@
 		C4B2FFA314B22CF000768A9A = {
 			isa = PBXGroup;
 			children = (
+				C4E5B33B14B274AD00AA72ED /* wall2.png */,
+				C4E5B33914B2740200AA72ED /* wall.png */,
+				C4E5B33514B2651200AA72ED /* Default@2x.png */,
+				C4E5B33214B264FA00AA72ED /* Default.png */,
+				C4B2FFFE14B22D6300768A9A /* www */,
 				C4B2FFCF14B22CF000768A9A /* The Wall */,
 				C4B2FFB414B22CF000768A9A /* Frameworks */,
 				C4B2FFB214B22CF000768A9A /* Products */,
@@ -286,10 +299,13 @@
 				C4B2FFE514B22CF000768A9A /* icon.png in Resources */,
 				C4B2FFE714B22CF000768A9A /* icon@2x.png in Resources */,
 				C4B2FFE914B22CF000768A9A /* icon-72.png in Resources */,
-				C4B2FFEC14B22CF000768A9A /* Default.png in Resources */,
-				C4B2FFEE14B22CF000768A9A /* Default@2x.png in Resources */,
 				C4B2FFF014B22CF200768A9A /* Capture.bundle in Resources */,
 				C4B2FFF214B22CF200768A9A /* PhoneGap.plist in Resources */,
+				C4B2FFFF14B22D6300768A9A /* www in Resources */,
+				C4E5B33314B264FA00AA72ED /* Default.png in Resources */,
+				C4E5B33614B2651200AA72ED /* Default@2x.png in Resources */,
+				C4E5B33A14B2740200AA72ED /* wall.png in Resources */,
+				C4E5B33C14B274AD00AA72ED /* wall2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +440,7 @@
 					/usr/lib/libSystem.B.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -451,7 +467,7 @@
 					/usr/lib/libSystem.B.dylib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -476,6 +492,7 @@
 				C4B2FFFD14B22CF200768A9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
