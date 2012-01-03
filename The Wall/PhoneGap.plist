@@ -24,6 +24,8 @@
 	</array>
 	<key>Plugins</key>
 	<dict>
+		<key>com.phonegap.facebook.Connect</key>
+		<string>FacebookConnectPlugin</string>
 		<key>com.phonegap.accelerometer</key>
 		<string>PGAccelerometer</string>
 		<key>com.phonegap.camera</key>
