@@ -11,7 +11,7 @@
 #import "JSON.h"
 //#import "PluginResult.h"
 
-#define APP_SECRET  @"912f143ca5370b0e882df3b45121ed96"
+#define APP_SECRET  @"9363c1b88945a1006a51ee3b60edc9f4"
 
 @implementation FacebookConnectPlugin
 
