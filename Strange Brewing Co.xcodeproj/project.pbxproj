@@ -8,15 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C4155B461553093E00A6FBB4 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4155B451553093E00A6FBB4 /* icon2.png */; };
-		C4155B49155337AC00A6FBB4 /* Beer.js in Sources */ = {isa = PBXBuildFile; fileRef = C4155B48155337AC00A6FBB4 /* Beer.js */; };
-		C4155B4B15533D8200A6FBB4 /* beerList.js in Sources */ = {isa = PBXBuildFile; fileRef = C4155B4A15533D8200A6FBB4 /* beerList.js */; };
-		C4155B4D15533D9800A6FBB4 /* beerDetail.js in Sources */ = {isa = PBXBuildFile; fileRef = C4155B4C15533D9800A6FBB4 /* beerDetail.js */; };
-		C4155B4F1553893400A6FBB4 /* newsList.js in Sources */ = {isa = PBXBuildFile; fileRef = C4155B4E1553893400A6FBB4 /* newsList.js */; };
-		C4155B5015538C6000A6FBB4 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4155B431553093000A6FBB4 /* icon1.png */; };
 		C4155B5215538C8600A6FBB4 /* icon2 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = C4155B5115538C8600A6FBB4 /* icon2 copy.png */; };
-		C45759DD1533C819003C2AE0 /* Reticon.png in Resources */ = {isa = PBXBuildFile; fileRef = C45759DC1533C819003C2AE0 /* Reticon.png */; };
-		C45759E41533CDD9003C2AE0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C45759DA1533C812003C2AE0 /* Icon.png */; };
-		C45759E615340036003C2AE0 /* regIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C45759E515340036003C2AE0 /* regIcon.png */; };
 		C49D9C9215214FD800B3BD4A /* EmailComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = C49D9C9115214FD800B3BD4A /* EmailComposer.m */; };
 		C49D9C941521507A00B3BD4A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49D9C931521507A00B3BD4A /* MessageUI.framework */; };
 		C49D9C9B1521530C00B3BD4A /* ChildBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C49D9C951521530C00B3BD4A /* ChildBrowser.bundle */; };
@@ -82,16 +74,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C4155B431553093000A6FBB4 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
 		C4155B451553093E00A6FBB4 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
-		C4155B48155337AC00A6FBB4 /* Beer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = Beer.js; path = www/wall/models/Beer.js; sourceTree = "<group>"; };
-		C4155B4A15533D8200A6FBB4 /* beerList.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = beerList.js; path = www/wall/views/beerList.js; sourceTree = "<group>"; };
-		C4155B4C15533D9800A6FBB4 /* beerDetail.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = beerDetail.js; path = www/wall/views/beerDetail.js; sourceTree = "<group>"; };
-		C4155B4E1553893400A6FBB4 /* newsList.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = newsList.js; path = www/wall/views/newsList.js; sourceTree = "<group>"; };
 		C4155B5115538C8600A6FBB4 /* icon2 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2 copy.png"; sourceTree = "<group>"; };
-		C45759DA1533C812003C2AE0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		C45759DC1533C819003C2AE0 /* Reticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reticon.png; sourceTree = "<group>"; };
-		C45759E515340036003C2AE0 /* regIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regIcon.png; sourceTree = "<group>"; };
 		C49D9C9015214FD800B3BD4A /* EmailComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailComposer.h; sourceTree = "<group>"; };
 		C49D9C9115214FD800B3BD4A /* EmailComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailComposer.m; sourceTree = "<group>"; };
 		C49D9C931521507A00B3BD4A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -101,7 +85,7 @@
 		C49D9C981521530C00B3BD4A /* ChildBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBrowserViewController.h; sourceTree = "<group>"; };
 		C49D9C991521530C00B3BD4A /* ChildBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildBrowserViewController.m; sourceTree = "<group>"; };
 		C49D9C9A1521530C00B3BD4A /* ChildBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildBrowserViewController.xib; sourceTree = "<group>"; };
-		C4B2FFB114B22CF000768A9A /* Red Rocks Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Red Rocks Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B2FFB114B22CF000768A9A /* Strange Brewing Co.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strange Brewing Co.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B2FFB514B22CF000768A9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C4B2FFB714B22CF000768A9A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4B2FFB914B22CF000768A9A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,10 +99,10 @@
 		C4B2FFC914B22CF000768A9A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C4B2FFCB14B22CF000768A9A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		C4B2FFCD14B22CF000768A9A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		C4B2FFD114B22CF000768A9A /* Strange Brewing Co-Info.plist */ = {isa = PBXFileReference; path = "Strange Brewing Co-Info.plist"; sourceTree = "<group>"; };
+		C4B2FFD114B22CF000768A9A /* Strange Brewing Co-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Strange Brewing Co-Info.plist"; sourceTree = "<group>"; };
 		C4B2FFD314B22CF000768A9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4B2FFD514B22CF000768A9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C4B2FFD714B22CF000768A9A /* Strange Brewing Co-Prefix.pch */ = {isa = PBXFileReference; path = "Strange Brewing Co-Prefix.pch"; sourceTree = "<group>"; };
+		C4B2FFD714B22CF000768A9A /* Strange Brewing Co-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Strange Brewing Co-Prefix.pch"; sourceTree = "<group>"; };
 		C4B2FFD814B22CF000768A9A /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		C4B2FFDD14B22CF000768A9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C4B2FFE114B22CF000768A9A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -200,15 +184,8 @@
 			isa = PBXGroup;
 			children = (
 				C4155B5115538C8600A6FBB4 /* icon2 copy.png */,
-				C4155B4E1553893400A6FBB4 /* newsList.js */,
-				C4155B4A15533D8200A6FBB4 /* beerList.js */,
-				C4155B4C15533D9800A6FBB4 /* beerDetail.js */,
 				C4155B451553093E00A6FBB4 /* icon2.png */,
-				C4155B431553093000A6FBB4 /* icon1.png */,
 				C4CFBDC1154F74C9001D0557 /* facebook-ios-sdk.xcodeproj */,
-				C45759E515340036003C2AE0 /* regIcon.png */,
-				C45759DC1533C819003C2AE0 /* Reticon.png */,
-				C45759DA1533C812003C2AE0 /* Icon.png */,
 				C49D9C931521507A00B3BD4A /* MessageUI.framework */,
 				C4E5B33514B2651200AA72ED /* Default@2x.png */,
 				C4E5B33214B264FA00AA72ED /* Default.png */,
@@ -216,14 +193,13 @@
 				C4B2FFCF14B22CF000768A9A /* The Wall */,
 				C4B2FFB414B22CF000768A9A /* Frameworks */,
 				C4B2FFB214B22CF000768A9A /* Products */,
-				C4155B48155337AC00A6FBB4 /* Beer.js */,
 			);
 			sourceTree = "<group>";
 		};
 		C4B2FFB214B22CF000768A9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4B2FFB114B22CF000768A9A /* Red Rocks Social.app */,
+				C4B2FFB114B22CF000768A9A /* Strange Brewing Co.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -415,7 +391,7 @@
 			);
 			name = "Strange Brewing Co";
 			productName = "The Wall";
-			productReference = C4B2FFB114B22CF000768A9A /* Red Rocks Social.app */;
+			productReference = C4B2FFB114B22CF000768A9A /* Strange Brewing Co.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -478,12 +454,8 @@
 				C4E5B33614B2651200AA72ED /* Default@2x.png in Resources */,
 				C49D9C9B1521530C00B3BD4A /* ChildBrowser.bundle in Resources */,
 				C49D9C9E1521530C00B3BD4A /* ChildBrowserViewController.xib in Resources */,
-				C45759DD1533C819003C2AE0 /* Reticon.png in Resources */,
-				C45759E41533CDD9003C2AE0 /* Icon.png in Resources */,
-				C45759E615340036003C2AE0 /* regIcon.png in Resources */,
 				C4CFBE0D154F7614001D0557 /* FBDialog.bundle in Resources */,
 				C4155B461553093E00A6FBB4 /* icon2.png in Resources */,
-				C4155B5015538C6000A6FBB4 /* icon1.png in Resources */,
 				C4155B5215538C8600A6FBB4 /* icon2 copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,10 +499,6 @@
 				C4CFBE15154F7614001D0557 /* Facebook.m in Sources */,
 				C4CFBE16154F7614001D0557 /* FBLoginDialog.m in Sources */,
 				C4CFBE17154F7614001D0557 /* FBDialog.m in Sources */,
-				C4155B49155337AC00A6FBB4 /* Beer.js in Sources */,
-				C4155B4B15533D8200A6FBB4 /* beerList.js in Sources */,
-				C4155B4D15533D9800A6FBB4 /* beerDetail.js in Sources */,
-				C4155B4F1553893400A6FBB4 /* newsList.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

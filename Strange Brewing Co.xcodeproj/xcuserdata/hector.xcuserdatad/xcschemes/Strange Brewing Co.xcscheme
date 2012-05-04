@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C4B2FFB014B22CF000768A9A"
-               BuildableName = "Red Rocks Social.app"
+               BuildableName = "Strange Brewing Co.app"
                BlueprintName = "Strange Brewing Co"
                ReferencedContainer = "container:Strange Brewing Co.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4B2FFB014B22CF000768A9A"
-            BuildableName = "Red Rocks Social.app"
+            BuildableName = "Strange Brewing Co.app"
             BlueprintName = "Strange Brewing Co"
             ReferencedContainer = "container:Strange Brewing Co.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4B2FFB014B22CF000768A9A"
-            BuildableName = "Red Rocks Social.app"
+            BuildableName = "Strange Brewing Co.app"
             BlueprintName = "Strange Brewing Co"
             ReferencedContainer = "container:Strange Brewing Co.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4B2FFB014B22CF000768A9A"
-            BuildableName = "Red Rocks Social.app"
+            BuildableName = "Strange Brewing Co.app"
             BlueprintName = "Strange Brewing Co"
             ReferencedContainer = "container:Strange Brewing Co.xcodeproj">
          </BuildableReference>
