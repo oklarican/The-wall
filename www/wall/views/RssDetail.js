@@ -3,6 +3,7 @@ wall.views.RssDetail = Ext.extend(Ext.Panel, {
     layout: 'fit',
     scroll: 'vertical',
     styleHtmlContent: true,
+                                  style: 'background: #f4f2e8;',
     initComponent: function(){
         Ext.apply(this, {
         dockedItems: [
@@ -11,7 +12,7 @@ wall.views.RssDetail = Ext.extend(Ext.Panel, {
             title: 'RSS Detail',
             items: [{
                     xtype: 'button',
-                    ui: 'back',
+                    ui:'mybutton-round',
                     text: 'Back',
                     handler: function(){
                     Ext.dispatch({

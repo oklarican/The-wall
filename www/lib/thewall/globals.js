@@ -52,6 +52,19 @@ var rssTpl = new Ext.XTemplate(
                                    '</div>'
                                    );
 
+var beerTpl = new Ext.XTemplate(
+                               '<div id="tweet_container">',
+                               '<tpl for=".">',
+                               '<div class="tweet_data">',
+                               '<div class="list_content">',
+                               '<div class="user">{beerName}</div>',
+                               '</div>',
+                               '<div class="clear"></div>',
+                               '</div>',
+                               '</tpl>',
+                               '</div>'
+                               );
+
 var tpl = new Ext.XTemplate(
                             '<div id="tweet_container">',
                             '<tpl for=".">',

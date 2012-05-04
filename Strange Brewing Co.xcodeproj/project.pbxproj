@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4155B461553093E00A6FBB4 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4155B451553093E00A6FBB4 /* icon2.png */; };
+		C4155B49155337AC00A6FBB4 /* Beer.js in Sources */ = {isa = PBXBuildFile; fileRef = C4155B48155337AC00A6FBB4 /* Beer.js */; };
+		C4155B4B15533D8200A6FBB4 /* beerList.js in Sources */ = {isa = PBXBuildFile; fileRef = C4155B4A15533D8200A6FBB4 /* beerList.js */; };
+		C4155B4D15533D9800A6FBB4 /* beerDetail.js in Sources */ = {isa = PBXBuildFile; fileRef = C4155B4C15533D9800A6FBB4 /* beerDetail.js */; };
+		C4155B4F1553893400A6FBB4 /* newsList.js in Sources */ = {isa = PBXBuildFile; fileRef = C4155B4E1553893400A6FBB4 /* newsList.js */; };
+		C4155B5015538C6000A6FBB4 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4155B431553093000A6FBB4 /* icon1.png */; };
+		C4155B5215538C8600A6FBB4 /* icon2 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = C4155B5115538C8600A6FBB4 /* icon2 copy.png */; };
 		C45759DD1533C819003C2AE0 /* Reticon.png in Resources */ = {isa = PBXBuildFile; fileRef = C45759DC1533C819003C2AE0 /* Reticon.png */; };
 		C45759E41533CDD9003C2AE0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C45759DA1533C812003C2AE0 /* Icon.png */; };
 		C45759E615340036003C2AE0 /* regIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C45759E515340036003C2AE0 /* regIcon.png */; };
@@ -75,6 +82,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4155B431553093000A6FBB4 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		C4155B451553093E00A6FBB4 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		C4155B48155337AC00A6FBB4 /* Beer.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = Beer.js; path = www/wall/models/Beer.js; sourceTree = "<group>"; };
+		C4155B4A15533D8200A6FBB4 /* beerList.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = beerList.js; path = www/wall/views/beerList.js; sourceTree = "<group>"; };
+		C4155B4C15533D9800A6FBB4 /* beerDetail.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = beerDetail.js; path = www/wall/views/beerDetail.js; sourceTree = "<group>"; };
+		C4155B4E1553893400A6FBB4 /* newsList.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = newsList.js; path = www/wall/views/newsList.js; sourceTree = "<group>"; };
+		C4155B5115538C8600A6FBB4 /* icon2 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2 copy.png"; sourceTree = "<group>"; };
 		C45759DA1533C812003C2AE0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		C45759DC1533C819003C2AE0 /* Reticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Reticon.png; sourceTree = "<group>"; };
 		C45759E515340036003C2AE0 /* regIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regIcon.png; sourceTree = "<group>"; };
@@ -101,10 +115,10 @@
 		C4B2FFC914B22CF000768A9A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C4B2FFCB14B22CF000768A9A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		C4B2FFCD14B22CF000768A9A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		C4B2FFD114B22CF000768A9A /* Red Rocks Social-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Red Rocks Social-Info.plist"; sourceTree = "<group>"; };
+		C4B2FFD114B22CF000768A9A /* Strange Brewing Co-Info.plist */ = {isa = PBXFileReference; path = "Strange Brewing Co-Info.plist"; sourceTree = "<group>"; };
 		C4B2FFD314B22CF000768A9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4B2FFD514B22CF000768A9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C4B2FFD714B22CF000768A9A /* Red Rocks Social-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Red Rocks Social-Prefix.pch"; sourceTree = "<group>"; };
+		C4B2FFD714B22CF000768A9A /* Strange Brewing Co-Prefix.pch */ = {isa = PBXFileReference; path = "Strange Brewing Co-Prefix.pch"; sourceTree = "<group>"; };
 		C4B2FFD814B22CF000768A9A /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
 		C4B2FFDD14B22CF000768A9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C4B2FFE114B22CF000768A9A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -185,6 +199,12 @@
 		C4B2FFA314B22CF000768A9A = {
 			isa = PBXGroup;
 			children = (
+				C4155B5115538C8600A6FBB4 /* icon2 copy.png */,
+				C4155B4E1553893400A6FBB4 /* newsList.js */,
+				C4155B4A15533D8200A6FBB4 /* beerList.js */,
+				C4155B4C15533D9800A6FBB4 /* beerDetail.js */,
+				C4155B451553093E00A6FBB4 /* icon2.png */,
+				C4155B431553093000A6FBB4 /* icon1.png */,
 				C4CFBDC1154F74C9001D0557 /* facebook-ios-sdk.xcodeproj */,
 				C45759E515340036003C2AE0 /* regIcon.png */,
 				C45759DC1533C819003C2AE0 /* Reticon.png */,
@@ -196,6 +216,7 @@
 				C4B2FFCF14B22CF000768A9A /* The Wall */,
 				C4B2FFB414B22CF000768A9A /* Frameworks */,
 				C4B2FFB214B22CF000768A9A /* Products */,
+				C4155B48155337AC00A6FBB4 /* Beer.js */,
 			);
 			sourceTree = "<group>";
 		};
@@ -242,10 +263,10 @@
 		C4B2FFD014B22CF000768A9A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C4B2FFD114B22CF000768A9A /* Red Rocks Social-Info.plist */,
+				C4B2FFD114B22CF000768A9A /* Strange Brewing Co-Info.plist */,
 				C4B2FFD214B22CF000768A9A /* InfoPlist.strings */,
 				C4B2FFD514B22CF000768A9A /* main.m */,
-				C4B2FFD714B22CF000768A9A /* Red Rocks Social-Prefix.pch */,
+				C4B2FFD714B22CF000768A9A /* Strange Brewing Co-Prefix.pch */,
 				C4B2FFF114B22CF200768A9A /* PhoneGap.plist */,
 			);
 			name = "Supporting Files";
@@ -376,9 +397,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4B2FFB014B22CF000768A9A /* Red Rocks Social */ = {
+		C4B2FFB014B22CF000768A9A /* Strange Brewing Co */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4B2FFFB14B22CF200768A9A /* Build configuration list for PBXNativeTarget "Red Rocks Social" */;
+			buildConfigurationList = C4B2FFFB14B22CF200768A9A /* Build configuration list for PBXNativeTarget "Strange Brewing Co" */;
 			buildPhases = (
 				C4B2FFAA14B22CF000768A9A /* Sources */,
 				C4B2FFAB14B22CF000768A9A /* Frameworks */,
@@ -392,7 +413,7 @@
 			dependencies = (
 				C4CFBDCC154F74F0001D0557 /* PBXTargetDependency */,
 			);
-			name = "Red Rocks Social";
+			name = "Strange Brewing Co";
 			productName = "The Wall";
 			productReference = C4B2FFB114B22CF000768A9A /* Red Rocks Social.app */;
 			productType = "com.apple.product-type.application";
@@ -405,7 +426,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = C4B2FFA814B22CF000768A9A /* Build configuration list for PBXProject "Red Rocks Social" */;
+			buildConfigurationList = C4B2FFA814B22CF000768A9A /* Build configuration list for PBXProject "Strange Brewing Co" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -424,7 +445,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				C4B2FFB014B22CF000768A9A /* Red Rocks Social */,
+				C4B2FFB014B22CF000768A9A /* Strange Brewing Co */,
 			);
 		};
 /* End PBXProject section */
@@ -461,6 +482,9 @@
 				C45759E41533CDD9003C2AE0 /* Icon.png in Resources */,
 				C45759E615340036003C2AE0 /* regIcon.png in Resources */,
 				C4CFBE0D154F7614001D0557 /* FBDialog.bundle in Resources */,
+				C4155B461553093E00A6FBB4 /* icon2.png in Resources */,
+				C4155B5015538C6000A6FBB4 /* icon1.png in Resources */,
+				C4155B5215538C8600A6FBB4 /* icon2 copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +527,10 @@
 				C4CFBE15154F7614001D0557 /* Facebook.m in Sources */,
 				C4CFBE16154F7614001D0557 /* FBLoginDialog.m in Sources */,
 				C4CFBE17154F7614001D0557 /* FBDialog.m in Sources */,
+				C4155B49155337AC00A6FBB4 /* Beer.js in Sources */,
+				C4155B4B15533D8200A6FBB4 /* beerList.js in Sources */,
+				C4155B4D15533D9800A6FBB4 /* beerDetail.js in Sources */,
+				C4155B4F1553893400A6FBB4 /* newsList.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,12 +641,12 @@
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "The Wall/Red Rocks Social-Prefix.pch";
+				GCC_PREFIX_HEADER = "The Wall/Strange Brewing Co-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers;
 				"HEADER_SEARCH_PATHS[arch=*]" = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers;
-				INFOPLIST_FILE = "The Wall/Red Rocks Social-Info.plist";
+				INFOPLIST_FILE = "The Wall/Strange Brewing Co-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -630,7 +658,7 @@
 					"-weak_library",
 					/usr/lib/libSystem.B.dylib,
 				);
-				PRODUCT_NAME = "Red Rocks Social";
+				PRODUCT_NAME = "Strange Brewing Co";
 				PROVISIONING_PROFILE = "990BF5FE-0AF6-4703-B6BA-360935415F47";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -650,11 +678,11 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "The Wall/Red Rocks Social-Prefix.pch";
+				GCC_PREFIX_HEADER = "The Wall/Strange Brewing Co-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/Headers;
-				INFOPLIST_FILE = "The Wall/Red Rocks Social-Info.plist";
+				INFOPLIST_FILE = "The Wall/Strange Brewing Co-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -666,7 +694,7 @@
 					"-weak_library",
 					/usr/lib/libSystem.B.dylib,
 				);
-				PRODUCT_NAME = "Red Rocks Social";
+				PRODUCT_NAME = "Strange Brewing Co";
 				PROVISIONING_PROFILE = "990BF5FE-0AF6-4703-B6BA-360935415F47";
 				"PROVISIONING_PROFILE[sdk=*]" = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -681,7 +709,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4B2FFA814B22CF000768A9A /* Build configuration list for PBXProject "Red Rocks Social" */ = {
+		C4B2FFA814B22CF000768A9A /* Build configuration list for PBXProject "Strange Brewing Co" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4B2FFF914B22CF200768A9A /* Debug */,
@@ -690,7 +718,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4B2FFFB14B22CF200768A9A /* Build configuration list for PBXNativeTarget "Red Rocks Social" */ = {
+		C4B2FFFB14B22CF200768A9A /* Build configuration list for PBXNativeTarget "Strange Brewing Co" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4B2FFFC14B22CF200768A9A /* Debug */,

@@ -1,6 +1,7 @@
 wall.views.AboutPanel = Ext.extend(Ext.Panel, {
                                    id: 'aboutPanel',
                                    layout: 'fit',
+                                    style: 'background: #f4f2e8;',
                                    scroll: 'vertical',
                                    //bodypadding: '10, 10, 10, 10',
                                    html: [aboutHTML],
@@ -10,10 +11,10 @@ wall.views.AboutPanel = Ext.extend(Ext.Panel, {
                                              dockedItems: [{
                                                            xtype: 'toolbar',
                                                            id: 'aboutPanelToolbar',
-                                                           title: 'About',
+                                                           title: 'About Strange',
                                                            items: [{
                                                                    xtype: 'button',
-                                                                   ui: 'back',
+                                                                   ui:'mybutton-round',
                                                                    text: 'Back',
                                                                    handler: function(){
                                                                    Ext.dispatch({
@@ -31,6 +32,7 @@ wall.views.AboutPanel = Ext.extend(Ext.Panel, {
                                                            
                                                            items: [{xtype:'spacer'},
                                                                    {xtype: 'button',
+                                                                       ui:'mybutton',
                                                                     text: 'Email Us!',
                                                                     handler: function(){
                                                                    window.plugins.emailComposer.showEmailComposer('Hi Red Rocks Social Developers!','','apps@arbitragemobile.com','','');

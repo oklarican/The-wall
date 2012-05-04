@@ -2,6 +2,7 @@ wall.views.HomeMenu = Ext.extend(Ext.Panel,{
     id: 'homeMenu',
     layout: 'vbox',
     scroll: 'false',
+                                  style: 'background: #f4f2e8;',
     //html: 'This is the homeMenu',
     initComponent: function() {
     Ext.apply(this, {
@@ -40,16 +41,16 @@ wall.views.HomeMenu = Ext.extend(Ext.Panel,{
                                       
                                       });                         }
                          },                      
-                         {cls: 'newsbutton',
-                         html: '<p class="amhomebtntxt"><br /><br /><br />News</p>',
+                         {cls: 'calendarbutton',
+                         html: '<p class="amhomebtntxt"><br /><br /><br />Beers</p>',
                          handler: function() {
                          Ext.dispatch({
                                       controller: wall.controllers.main,
-                                      action: 'showRssFeed',
+                                      action: 'showBeerList',
                                       animation: {type: 'slide', direction: 'left'},
-                                      rssName: 'News',
-                                      rssUrl: newsFeedUrl,
+                                      
                                       });
+                         
                          }
                          },
                          {cls: 'twitterbutton',
@@ -84,25 +85,17 @@ wall.views.HomeMenu = Ext.extend(Ext.Panel,{
                  pressedCls: 'menubtnp'
                  },
                   items: [
-                          {cls: 'calendarbutton',
-                          html: '<p class="amhomebtntxt"><br /><br /><br />Calendar</p>',
-                       handler: function() {
+                          {cls: 'newsbutton',
+                          html: '<p class="amhomebtntxt"><br /><br /><br />News</p>',
+                          handler: function() {
                           Ext.dispatch({
                                        controller: wall.controllers.main,
-                                       action: 'showRssFeed',
-                                       animation: {type: 'slide', direction: 'left'},
-                                       rssName: 'Calendar',
-                                       rssUrl: calendarFeedUrl,
+                                       action: 'showNewsList',
+                                       
                                        });
+                          }
+                          },
                           
-                          }
-                          },
-                          {cls: 'videobutton',
-                          html: '<p class="amhomebtntxt"><br /><br /><br />Videos</p>',
-                          handler: function(){
-                          childBrowser.showWebPage("http://www.youtube.com/DenverRedRocks");
-                          }
-                          },
                           {cls: 'aboutbutton',
                           html: '<p class="amhomebtntxt"><br /><br /><br />About</p>',
                        handler: function(){
@@ -132,7 +125,7 @@ wall.views.HomeMenu = Ext.extend(Ext.Panel,{
                   items: [{xtype:'spacer'},
                            {
                             xtype: 'button',
-                           
+                              ui:'mybutton',
                              text: 'Web',
                           handler: function(){
                            childBrowser.showWebPage(aboutWebPage);
@@ -141,14 +134,14 @@ wall.views.HomeMenu = Ext.extend(Ext.Panel,{
                            },
                            {
                             xtype: 'button',
-                           
+                              ui:'mybutton',
                              text: 'Email',
                           handler: function(){
                            window.plugins.emailComposer.showEmailComposer(emailSubject,emailMessage,emailAddress,'','');
                            
                           }},{
                            xtype: 'button',
-                          
+                              ui:'mybutton',
                             text: 'Log Into Facebook',
                          handler: function(){
                           login(); me();                        },

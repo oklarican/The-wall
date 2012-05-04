@@ -164,6 +164,51 @@ wall.controllers.main = new Ext.Controller({
                                                              animation: {type: 'slide', direction: 'right'}
                                                              });
                                            },
+                                           
+                                         
+                                           
+                                           showBeerList: function(options){
+                                           
+                                           wall.views.beerList = new wall.views.BeerList();
+                                           wall.views.viewport.setActiveItem(wall.views.beerList, options.animation);
+                                           
+                                           
+                                           }
+                                           
+                                           ,
+                                           backToBeerList: function(options){
+                                           wall.views.beerList = new wall.views.BeerList();
+                                           wall.views.viewport.setActiveItem(wall.views.beerList, options.animation);
+                                           
+                                           },
+                                           
+                                          
+                                           
+                                           showBeerDetail: function(options){
+                                           
+                                           wall.views.beerDetail = new wall.views.BeerDetail();
+                                           //wall.views.beerDetail.getDockedItems()[0].setTitle(options.beerName);
+                                           wall.views.beerDetail.update('<div class="tweet_data"><div class="list_content"><b><center>'+options.beerName+'</center></b></div><div id="tweet_container"><tpl for="."><div class="tweet_data"><div class="beer_content">'+options.beerDescription+'</div><div class="clear"></div></div></tpl></div>');
+                                           wall.views.viewport.setActiveItem(wall.views.beerDetail, options.animation);
+                                           },
+                                           
+                                           backToHomeMenuFromRssTwitterFeed: function(options){
+                                          
+                                           
+                                           // Remove the rssFeed and rssDetail panels from the viewport    
+                                           wall.views.viewport.remove(wall.views.beerList);
+                                           wall.views.viewport.remove(wall.views.beerDetail);
+                                           this.showHomeMenu({
+                                                             animation: {type: 'slide', direction: 'right'}
+                                                             });
+                                           },
+                                           showNewsList: function(options){
+                                           
+                                           wall.views.newsList = new wall.views.NewsList();
+                                           wall.views.viewport.setActiveItem(wall.views.newsList, options.animation);
+                                           
+                                           
+                                           },
 
                                                                                       
                                            

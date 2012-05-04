@@ -11,7 +11,7 @@ wall.views.RssTwitterFeed = Ext.extend(Ext.Panel, {
                                                         title: 'RSS Feed',
                                                         items: [{
                                                                 xtype: 'button',
-                                                                ui: 'back',
+                                                               ui:'mybutton-round',
                                                                 text: 'Back',
                                                                 handler: function(){
                                                                 Ext.dispatch({
@@ -32,7 +32,7 @@ wall.views.RssTwitterFeed = Ext.extend(Ext.Panel, {
                                                   disableSelection: true,
                                                   layout: 'auto',
                                                   itemCls:'noBorder',
-                                                  //style: 'background: #FF3300;',
+                                                style: 'background: #f4f2e8;',
                                                   listeners: {
                                                   itemtap: function (dataView, index, item, e) {
                                                   Ext.dispatch({

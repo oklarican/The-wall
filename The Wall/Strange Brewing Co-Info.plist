@@ -10,10 +10,10 @@
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFiles</key>
 	<array>
-		<string>Reticon.png</string>
 		<string>Default@2x.png</string>
 		<string>Default.png</string>
-		<string>regIcon.png</string>
+		<string>icon2.png</string>
+		<string>icon2 copy.png</string>
 	</array>
 	<key>CFBundleIcons</key>
 	<dict>
@@ -21,10 +21,10 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>Reticon.png</string>
 				<string>Default@2x.png</string>
 				<string>Default.png</string>
-				<string>regIcon.png</string>
+				<string>icon2.png</string>
+				<string>icon2 copy.png</string>
 			</array>
 		</dict>
 	</dict>
@@ -42,7 +42,7 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string>com.facebook.arbitrage.redrockssocial</string>
+			<string>com.facebook.arbitrage.StrangeBrew</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>fb271670512927387</string>

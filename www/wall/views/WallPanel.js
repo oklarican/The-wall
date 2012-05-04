@@ -9,11 +9,12 @@ wall.views.WallPanel = Ext.extend(Ext.Panel, {
                                 dock : 'top',                
                                 id: 'wallToolbar',
                                 //title: 'Post',
-                                ui:'light',
+                                
                                 layout: 'hbox',
                                 items: [{
                                         xtype: 'button',
-                                        ui: 'back',
+                                        //ui: 'back',
+                                        ui:'mybutton-round',
                                         text: 'Back',
                                         handler: function(){
                                         Ext.dispatch({
@@ -52,7 +53,7 @@ wall.views.WallPanel = Ext.extend(Ext.Panel, {
                                                                  itemTpl : tpl,
                                                                  layout: 'auto',
                                                                  itemCls:'noBorder',
-                                                                 //style: 'background: #DDEEF6;',
+                                                                 style: 'background: #f4f2e8;',
                                                                  disableSelection: true,
                                                                  store: wall.stores.WallPostsStore,
                                     listeners: {

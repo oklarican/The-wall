@@ -10,7 +10,7 @@ wall.views.RssList = Ext.extend(Ext.Panel, {
                 title: 'RSS List',
                 items: [{
                     xtype: 'button',
-                    ui: 'back',
+                    ui:'mybutton-round',
                     text: 'Back',
                     handler: function(){
                         Ext.dispatch({

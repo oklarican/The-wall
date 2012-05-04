@@ -60,9 +60,14 @@ function checkFence() {
         postButton.addCls("red-button");
         postButton.setHandler(function() {
                               
-                              wall.views.notificationOverlay.update('You have to be at Red Rocks to post!');
+                              transferFile();
+                              Ext.getCmp("text").reset();
+                              document.getElementById('uploadPic').src = "lib/thewall/icons/camera.png";
+                              navigator.notification.vibrate(2500);
+                              wall.views.notificationOverlay.update('Message Posted');
                               wall.views.notificationOverlay.show();
                               hideNoti.delay(1500);
+                              load.delay(1700);
                               
                               });
     }

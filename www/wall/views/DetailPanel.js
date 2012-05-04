@@ -2,17 +2,17 @@ wall.views.DetailPanel = Ext.extend(Ext.Panel, {
                                     id: 'detailPanel',
                                     layout: 'fit',
                                     scroll: 'vertical',
-                                    
+                                    style: 'background: #f4f2e8;',
                                     initComponent: function(){
                                     
                                     Ext.apply(this, {
                                               dockedItems: [
                                                             {xtype: 'toolbar',
                                                             
-                                                            title: 'Message',
+                                                            title: '',
                                                             items: [{
                                                                     xtype: 'button',
-                                                                    ui: 'back',
+                                                                    ui:'mybutton-round',
                                                                     text: 'Back',
                                                                     handler: function(){
                                                                     

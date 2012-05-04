@@ -28,7 +28,7 @@ Ext.regApplication({
         
                    try {
                    //alert('calling FB.init');
-                   FB.init({ appId: "271670512927387", nativeInterface: PG.FB });
+                   FB.init({ appId: fb_app_unique, nativeInterface: PG.FB });
                    document.getElementById('facebookData').innerHTML = "";
                    } catch (e) {
                    alert(e);

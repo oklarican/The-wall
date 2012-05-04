@@ -10,7 +10,7 @@ wall.views.RssFeed = Ext.extend(Ext.Panel, {
             title: 'RSS Feed',
             items: [{
                     xtype: 'button',
-                    ui: 'back',
+                    ui:'mybutton-round',
                     text: 'Back',
                     handler: function(){
                     Ext.dispatch({
@@ -27,7 +27,7 @@ wall.views.RssFeed = Ext.extend(Ext.Panel, {
             {xtype: 'list',
             //id: 'RssFeed',
             store: wall.stores.rssFeedStore,
-                //style: 'background: #DDEEF6;',
+                 style: 'background: #f4f2e8;',
             itemTpl: rssTpl,
                 disableSelection: true,
                 plugins: [{ptype: 'pullrefresh'}],

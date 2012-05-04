@@ -21,7 +21,8 @@ p.amhomebtntxt
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;
-    border: 1px solid #8BBCD6;
+    border: 1px solid #A94D0E;
+    color: #5D9730;
     background-color: #fff;
     font-size: 0.65em;
     font-weight:bold;
@@ -41,7 +42,8 @@ p.amhomebtntxt
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;
-    border: 1px solid #8BBCD6;
+    border: 1px solid #A94D0E;
+    color: #5D9730;
     background-color: #fff;
     font-size: 0.65em;
     font-weight:bold;
@@ -59,7 +61,8 @@ p.amhomebtntxt
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;
-    border: 1px solid #8BBCD6;
+    border: 1px solid #A94D0E;
+    color: #5D9730;
     background-color: #fff;
     font-size: 0.65em;
     font-weight:bold;
@@ -77,7 +80,8 @@ p.amhomebtntxt
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;
-    border: 1px solid #8BBCD6;
+    border: 1px solid #A94D0E;
+    color: #5D9730;
     background-color: #fff;
     font-size: 0.65em;
     font-weight:bold;
@@ -95,7 +99,8 @@ p.amhomebtntxt
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;
-    border: 1px solid #8BBCD6;
+    border: 1px solid #A94D0E;
+    color: #5D9730;
     background-color: #fff;
     font-size: 0.65em;
     font-weight:bold;
@@ -113,7 +118,8 @@ p.amhomebtntxt
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;
-    border: 1px solid #8BBCD6;
+    border: 1px solid #A94D0E;
+    color: #5D9730;
     background-color: #fff;
     font-size: 0.65em;
     font-weight:bold;
@@ -131,7 +137,8 @@ p.amhomebtntxt
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;
-    border: 1px solid #8BBCD6;
+    border: 1px solid #A94D0E;
+    color: #5D9730;
     background-color: #fff;
     font-size: 0.65em;
     font-weight:bold;
@@ -149,7 +156,8 @@ p.amhomebtntxt
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;
-    border: 1px solid #8BBCD6;
+    border: 1px solid #A94D0E;
+    color: #5D9730;
     background-color: #fff;
     font-size: 0.65em;
     font-weight:bold;
@@ -167,7 +175,8 @@ p.amhomebtntxt
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;
-    border: 1px solid #8BBCD6;
+    border: 1px solid #A94D0E;
+    color: #5D9730;
     background-color: #fff;
     font-size: 0.65em;
     font-weight:bold;
@@ -287,7 +296,7 @@ p.amhomebtntxt
 .errorfield ul { margin: 10px; }
 
 .red-button {
-    border-top: 1px solid #f797b7 !important;
+    /*border-top: 1px solid #f797b7 !important;*/
     background: #d66585 !important;
     background: -webkit-gradient(linear, left top, left bottom, from(#eb0927), to(#d66585)) !important;
     background: -webkit-linear-gradient(top, #eb0927, #d66585) !important;
@@ -326,19 +335,37 @@ p.amhomebtntxt
 
 .timestamp2 {
     
-    color: #8BBCD6;
+    color: #5D9730;
     text-decoration: none;
+}
+
+.list_content {
+    float: center;
+    /*width: 235px;
+    line-height: 16px;*/
+    font-style:bold;
+    color: #5D9730;
+    font-size: 15px;
+}
+
+.beer_content {
+    float: center;
+    /*width: 235px;
+     line-height: 16px;*/
+    font-style:bold;
+    color: #000;
+    font-size: 15px;
 }
 
 /*Begin Twitter CSS*/
 #tweet_container {
     margin: 5px;
     padding: 5px;
-    background: #fff;
+    background: #f4f2e8;
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;
-    border: 1px solid #8BBCD6;
+    border: 2px solid #A94D0E;
 }
 .clear {
     clear: both;
@@ -356,16 +383,16 @@ p.amhomebtntxt
     float: left;
     width: 235px;
     line-height: 16px;
-    color: #333;
+    color: #000;
     font-size: 11px;
 }
 .user {
     font-weight: bold;
-    color: #8BBCD6;
+    color: #5D9730;
     text-decoration: none;
 }
 .outlink {
-    color: #0099cc;
+    color: #5D9730;
     text-decoration: none;
 }
 /*End Twitter CSS*/
